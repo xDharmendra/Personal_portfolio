@@ -760,6 +760,10 @@ body.dark-theme{
   top: 0px;
 }
 
+.bgcolor{
+  background-color:  var(--container-color);
+}
+
 /*=============== SERVICES ===============*/
 
 .services__container{
@@ -850,11 +854,6 @@ body.dark-theme{
 }
 
 
-/* Education */
-
-.bgcolor{
-  background-color:  var(--container-color);
-}
 
 
 /*=============== PROJECTS ===============*/
@@ -1084,6 +1083,15 @@ body.dark-theme{
 .contact__button{
   background-color: var(--first-color);
   cursor: pointer;
+}
+
+.emailmessage{
+  color: var(--text-color-light);
+  font-size: var(--font-medium);
+}
+
+a{
+  color: var(--text-color);
 }
 
 /* Opaque placeholder */
@@ -1603,7 +1611,7 @@ body.dark-theme{
   }
 
   .services__content{
-    padding: 6.5rem 1.5rem 3.5rem;  
+    padding: 6rem 1.5rem 3rem;  
     border: 6px solid var(--black-color);
   }
 
