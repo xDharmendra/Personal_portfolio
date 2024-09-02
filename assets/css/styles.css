@@ -834,7 +834,9 @@ body.dark-theme{
 
 .services__titlee{
   font-size: var(--h3-font-size);
-  margin-bottom: 1.25rem;
+  margin-bottom: 4.25rem;
+  margin-top: -7rem;
+  margin-left: 55rem;
 }
 
 .services__title_e{
@@ -1611,7 +1613,7 @@ a{
   }
 
   .services__content{
-    padding: 6rem 1.5rem 3rem;  
+    padding: 5rem 1.5rem 2rem;  
     border: 6px solid var(--black-color);
   }
 
