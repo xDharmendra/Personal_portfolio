@@ -379,6 +379,11 @@ body.dark-theme{
   right: 1.5rem;
   cursor: pointer;
 }
+/* it is for certificate crifentials */
+.nav___link{
+  color: var(---title-color);
+  font-size: var(--normal-font-size);
+}
 
 /* Show menu */
 .show-menu{
@@ -767,7 +772,7 @@ body.dark-theme{
 /*=============== SERVICES ===============*/
 
 .services__container{
-  grid-template-columns: 250px;
+  grid-template-columns: 330px;
   justify-content: center;
   row-gap: 2rem;
   padding-top: 1rem;
@@ -833,10 +838,9 @@ body.dark-theme{
 }
 
 .services__titlee{
-  font-size: var(--h3-font-size);
-  margin-bottom: 4.25rem;
-  margin-top: -7rem;
-  margin-left: 55rem;
+  font-size: var(--h4-font-size);
+  margin-bottom: .50rem;
+  margin-top: -.70rem;
 }
 
 .services__title_e{
@@ -854,8 +858,6 @@ body.dark-theme{
   /* font-size: var(--h2-font-size); */
   margin-top: -15px;
 }
-
-
 
 
 /*=============== PROJECTS ===============*/
@@ -1316,11 +1318,17 @@ a{
   .dark-theme .contact__social-arrow{
     filter: none;
   }
+
+  .nav___link{
+    color: var(---title-color);
+    font-size: var(--normal-font-size);
+  }
+
 }
 
 @media screen and (min-width: 768px) {
   .services__container{
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(1, 700px);
   }
 
   .projects__container{
@@ -1579,7 +1587,7 @@ a{
   }
 
   .about__description{
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     margin-bottom: 2rem;
   }
 
@@ -1607,7 +1615,13 @@ a{
   }
 
   .services__container{
-    grid-template-columns: repeat(3, 282px);
+    grid-template-columns: repeat(1, 1200px);
+    column-gap: 5rem;
+    padding-block: 3rem 5rem;
+  }
+
+  .skills{
+    grid-template-columns: repeat(2, 600px);
     column-gap: 5rem;
     padding-block: 3rem 5rem;
   }
@@ -1630,6 +1644,13 @@ a{
 
   .services__title{
     margin-bottom: 1.5rem;
+  }
+
+  .services__titlee{
+    font-size: var(--h3-font-size);
+    margin-bottom: 4.25rem;
+    margin-top: -7rem;
+    margin-left: 60rem;
   }
 
   .services__card:hover .services__border{
